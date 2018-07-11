@@ -1,0 +1,25 @@
+@mixin transition($animation){
+    transition: $animation;
+    -webkit-transition: $animation;
+    -moz-transition: $animation;
+    -ms-transition: $animation;
+    -o-transition: $animation;
+}
+
+@mixin transform($animation){
+    transform: $animation;
+    -webkit-transform: $animation;
+    -moz-transform: $animation;
+    -ms-transform: $animation;
+    -o-transform: $animation;
+}
+
+@mixin clearfix {
+  &:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}

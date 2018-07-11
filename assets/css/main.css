@@ -118,7 +118,7 @@ Full Hero Images
   background-repeat: no-repeat; }
 
 .home-hero {
-  background-image: url(/assets/images/jk-homeHero.jpg); }
+  background-image: url(../images/jk-homeHero.jpg); }
 
 .hero-wrap {
   padding: 60px 0;
@@ -129,9 +129,9 @@ Full Hero Images
     display: block;
     width: 100%;
     height: 10px;
-    border-image: url(/assets/images/rope.png) 25 25;
-    -webkit-border-image: url(/assets/images/rope.png) 25 25;
-    -o-border-image: url(/assets/images/rope.png) 25 25;
+    border-image: url(../images/rope.png) 25 25;
+    -webkit-border-image: url(../images/rope.png) 25 25;
+    -o-border-image: url(../images/rope.png) 25 25;
     border-image-repeat: repeat;
     border-image-width: 10px;
     position: absolute;
@@ -251,10 +251,10 @@ Full Hero Images
   background-repeat: no-repeat; }
 
 .values-bg {
-  background-image: url(/assets/images/jk-valuesbg.png); }
+  background-image: url(../images/jk-valuesbg.png); }
 
 .story-bg {
-  background-image: url(/assets/images/jk-fullstory.jpg); }
+  background-image: url(../images/jk-fullstory.jpg); }
 
 .newsletter-bg {
   background-color: #123466;
