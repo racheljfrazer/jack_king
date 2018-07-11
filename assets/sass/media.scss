@@ -1,0 +1,728 @@
+/* --------------------------------------------------------
+Style Sheet for Jack & King - by Searchlight Solutions
+Main Style
+Created: 10/2017 by Rachel Frazer
+----------------------------------------------------------*/
+
+
+@media screen and (max-width: 1400px){
+    .newsletter-bg .hover-obj{
+        left: -8%;
+        top: -6%;
+    }
+    
+    .jk-logoW{
+        font-size: 250px;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+    .promise-box{
+        text-align: center;
+        padding: 0px 20px;
+        .icon-box{
+            display: block;
+        }
+        .content{
+            line-height: 1.4;
+        }
+    }
+    
+    .overlay-pop-bg .quickview-container{
+        width: 930px;
+        .container-left{
+            width: 50%;
+        }
+        .container-right{
+            width: 50%;
+        }
+    }
+    
+    .pd-full-information .top-pd-content .component{
+        padding: 0px;
+    }
+    
+    .jk-logoW{
+        font-size: 230px;
+    }
+    
+    .index-bg{
+        height: 650px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1100px){
+    .hero-wrap .table-display .table-content .header .header-content{
+        width: 65%;
+    }
+    
+    .lead-content{
+        width: 40%;
+    }
+    
+    .product-holder{
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 990px){
+    .hero-wrap .table-display .table-content .header .header-content{
+        width: 85%;
+    }
+    
+    .product-holder .prod-card .card-wrap{
+        padding: 15px;
+        .prod-img{
+            padding: 0px;
+        }
+    }
+    
+    .lead-content .lead-cont-wrap .title h1{
+        font-size: 28px;
+    }
+    
+    .value-lineup .value-component{
+        padding: 0px 14px;
+    }
+    
+    .newsletter-bg .hover-obj{
+        left: -15%;
+    }
+    
+    .overlay-bg .story-position .content-holder{
+        width: 100%;
+    }
+    
+    .object-hover{
+        width: 300px;
+    }
+    
+    .overlay-pop-bg .quickview-container{
+        width: 820px;
+        height: 600px;
+        .container-left{
+            width: 46%;
+        }
+        .container-right{
+            width: 54%;
+        }
+    }
+    
+    .product-display{
+        padding-top: 30px;
+    }
+    
+    .product-display .inline-images .single-image img{
+        width: 100%;
+    }
+    
+    .carousel-images .thumbnails .carousel_dot{
+        width: 74px;
+    }
+    
+    .quickview-container .container-right .close-out{
+        padding-bottom: 0px;
+    }
+    
+    .pd-full-information .top-pd-content .title h2, .pd-full-information .top-pd-content .title h3{
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+    
+    .pd-full-information .top-pd-content .pricing{
+        font-size: 22px;
+    }
+    
+    .pd-full-information .top-pd-content .description p{
+        font-size: 13px;
+        b{
+            font-size: 14px;
+        }
+    }
+    
+    .tab-options{
+        margin-top: 11px !important;
+    }
+    
+    .tab-options .tab-item a{
+        font-size: 13px;
+        letter-spacing: 0px;
+    }
+    
+    .pd-full-information .top-pd-content .component h4{
+        font-size: 14px;
+    }
+    
+    .pd-full-information .top-pd-content .component .content p{
+        font-size: 13px;
+    }
+    
+    .product-display .inline-images .single-image{
+        min-height: 405px;
+    }
+    
+    .pd-full-information .top-pd-content .component{
+        padding: 5px 0px;
+    }
+    
+    .product-holder .prod-card .card-wrap .listing-content .title h2{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    
+    .value-lineup .value-component{
+        display: block;
+        vertical-align: top;
+        margin: 0 auto;
+        float: none;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+@media screen and (max-width: 840px){
+    .flex-row{
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    
+    .lead-content{
+        width: 80%;
+    }
+    
+    .product-holder{
+        width: 80%;
+    }
+    
+    .product-holder .prod-card .card-wrap .prod-img{
+        padding: 0px 15px;
+    }
+    
+    .newsletter-bg .hover-obj{
+        display: none;
+    }
+    
+    .newsletter-bg{
+        background-image: url(/assets/images/newsletter-mobile.jpg);
+        background-position: center 90px;
+    }
+    
+    .nl-title .nl-context{
+        width: 90%;
+    }
+    
+    .newsletter-form{
+        width: 90%;
+        input[type=email], input[type=text]{
+            margin-bottom: 35px;
+        }
+    }
+    
+    .promise-box{
+        width: 80%;
+        margin: 20px 0px;
+        .icon-box{
+            display: inline-block;
+        }
+    }
+    
+    .product-guarantees .standard-wrap{
+        padding: 30px 0px;
+    }
+    
+    .footer-nav li.footer-logo{
+        display: block;
+    }
+    
+    .footer-nav li.address{
+        display: none;
+    }
+    
+    .footer-nav li.address-mb{
+        display: inline-block;
+    }
+    
+    .footer-nav li.footer-logo .jk-logoDark{
+        font-size: 120px;
+    }
+    
+    .footer-nav li{
+        margin-bottom: 15px;
+    }
+    
+    .main-footer .footer-wrap{
+        padding: 20px 0px;
+    }
+    
+    .overlay-bg .story-position{
+        padding: 60px;
+        .subline h4{
+            font-size: 18px;
+        }
+        .inline-content{
+            .float-col{
+                float: none;
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+    
+    .story-bg{
+        background-image: url(/assets/images/story-bg-mb.jpg);
+    }
+    
+    .overlay-pop-bg{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .overlay-pop-bg .quickview-container{
+        width: 100%;
+        height: 100%;
+        overflow-y: scroll;
+        .container-left{
+            width: 100%;
+            float: none;
+            height: auto;
+            margin-top: 50px;
+            border-right: none;
+            .view-wrap{
+                padding: 30px 0px;
+                width: 70%;
+                margin: 0 auto;
+                &:after {
+                    content: " ";
+                    display: block;
+                    height: 0;
+                    clear: both;
+                    visibility: hidden;
+                  }
+            }
+        }
+    }
+    
+    .overlay-pop-bg .quickview-container .container-right{
+        width: 100%;
+        margin-top: 60px;
+        .close-out{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 10;
+        }
+    }
+    
+    .product-display{
+        float: right;
+        padding-top: 0px;
+        .inline-images{
+            .single-image{
+                min-height: auto;
+            }
+        }
+    }
+    
+    .carousel-images{
+        float: left;
+        width: 20%;
+    }
+    
+    .image-controls{
+        display: none;
+    }
+    
+    .info-slider{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .contact-title .title-wrap{
+        width: 70%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 768px){
+    .qr-code{
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .lead-content{
+        width: 100%;
+    }
+    
+    .product-holder{
+        width: 100%;
+    }
+    
+    .overlay-bg{
+        margin: 0px;
+    }
+    
+    .contact-full .full-wrap .right-col, .contact-full .full-wrap .left-col{
+        padding-right: 6%;
+        padding-left: 0px;
+    }
+    
+    .contact-title .title-wrap{
+        width: 66%;
+    }
+}
+
+@media screen and (max-width: 601px){
+    body{
+        min-width: 320px;
+    }
+    
+    .set-container{
+        min-width: 320px;
+    }
+    
+    .hero-wrap .table-display .table-content .header .header-content{
+        width: 100%;
+        p{
+            font-size: 16px;
+        }
+    }
+    
+    .yellow-btn.product-action{
+        padding: 0px 40px;
+    }
+    
+    .nl-title .nl-context{
+        padding: 0px;
+        h5{
+            font-size: 28px;
+        }
+    }
+    
+    .promise-box{
+        width: 90%;
+        .icon-box{
+            display: block;    
+        }
+    }
+    
+    .object-hover{
+        display: none;
+    }
+    
+    .overlay-bg .story-position{
+        padding: 50px 40px;
+    }
+    
+    .overlay-pop-bg .quickview-container .container-left .view-wrap{
+        width: 90%;
+    }
+    
+    .info-slider{
+        width: 90%;
+    }
+    
+    .terms-title .title-wrap{
+        padding: 0px 10px;
+        h1{
+            font-size: 28px;
+        }
+    }
+    
+    .terms-content .content-wrap{
+        padding: 0px 30px;
+    }
+    
+    .sm-container{
+        min-width: 320px;
+    }
+    
+    .company-header{
+        padding: 0px;
+    }
+    
+    .contact-title .title-wrap{
+        width: 100%;
+        h1{
+            font-size: 28px;
+        }
+    }
+    
+    .qr-code{
+        position: relative;
+    }
+    
+    .contact-full{
+        margin: 20px 0px;
+    }
+    
+    .contact-full .full-wrap .right-col, .contact-full .full-wrap .left-col{
+        width: 100%;
+        padding-right: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .jk-logoW{
+        font-size: 250px;
+    }
+    
+    .action-scroll{
+        display: none;
+    }
+    
+    .product-holder .prod-card{
+        width: 90%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .nl-title .nl-context{
+        width: 100%;
+    }
+    
+    .newsletter-form{
+        width: 100%;
+    }
+    
+    .overlay-bg{
+        display: none;
+    }
+    
+    .story-mobile{
+        display: block;
+    }
+    
+    .story-mobile-title{
+        display: block;
+    }
+    
+    .info-slider{
+        width: 100%;
+    }
+    
+    .product-options .row form .input-field .yellow-btn{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    
+    .terms-header{
+        .standard-wrap{
+            padding: 60px 0px 10px;
+        }
+    }
+    
+    .contact-title .title-wrap{
+        padding: 0px;
+    }
+    
+    .contact-full .full-wrap{
+        padding: 0px;
+    }
+    
+    .contact-full .full-wrap .right-col h2, .contact-full .full-wrap .right-col h3, .contact-full .full-wrap .left-col h2, .contact-full .full-wrap .left-col h3{
+        font-size: 16px;
+    }
+    
+    .contact-full .full-wrap .right-col .listed-stores li, .contact-full .full-wrap .left-col .listed-stores li{
+        font-size: 14px;
+    }
+    
+    .contact-full .full-wrap .right-col p, .contact-full .full-wrap .left-col p{
+        font-size: 14px;
+    }
+    
+    .contact-title .title-wrap p{
+        font-size: 14px;
+    }
+    
+    .hero-wrap .table-display .table-content .header.chinese .header-content span{
+        font-size: 16px;
+    }
+    
+    .hero-wrap .table-display .table-content .header.chinese .button-holder{
+        padding-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .yellow-btn{
+        font-size: 14px;
+    }
+    
+    .lead-content .lead-cont-wrap{
+        padding: 0px;
+    }
+    
+    .lead-content .lead-cont-wrap .title h1{
+        font-size: 22px;
+    }
+    
+    p{
+        font-size: 14px;
+    }
+    
+    .product-holder .prod-card .card-wrap .listing-content .title h2{
+        font-size: 14px;
+    }
+    
+    .section-title{
+        padding: 40px 0px;
+    }
+    
+    .value-lineup{
+        padding-top: 0px;
+    }
+    
+    .value-lineup .value-component{
+        width: 95%;
+        margin-bottom: 30px;
+        .comp-content{
+            h3{
+                font-size: 18px;
+            }
+        }
+    }
+    
+    .nl-title .nl-context{
+        h5{
+            font-size: 600;
+            font-size: 22px;
+        }
+    }
+    
+    .nl-title{
+        padding-bottom: 20px;
+    }
+    
+    .newsletter-form{
+        .row{
+            margin-bottom: 0px;
+        }
+    }
+    
+    .footer-nav li.address-mb{
+        padding: 0px;
+    }
+    
+    .story-mobile{
+        margin: 0;
+    }
+    
+    .product-display{
+        float: none;
+        width: 100%;
+    }
+    
+    .carousel-images{
+        float: none;
+        width: 100%;
+    }
+    
+    .overlay-pop-bg .quickview-container .container-right{
+        margin-top: 20px;
+    }
+    
+    .info-slider{
+        margin-bottom: 30px;
+    }
+    
+    .tab-options .tab-item a{
+        font-size: 12px !important;
+        letter-spacing: 0.6px;
+    }
+    
+    .pd-full-information{
+        padding: 0px 10px;
+    }
+    
+    .product-options .row form .input-field.s4, .product-options .row form .input-field.s8{
+        width: 100%;
+    }
+    
+    .product-options .row form .input-field .select-wrapper{
+        width: 90%;
+    }
+    
+    .pd-full-information .top-pd-content .title h2, .pd-full-information .top-pd-content .title h3{
+        font-size: 20px;
+    }
+    
+    .pd-full-information .top-pd-content .component .icon-holder{
+        float: none;
+    }
+    
+    .pd-full-information .top-pd-content .component h4{
+        padding-left: 0px;
+    }
+    
+    .terms-title .title-wrap{
+        padding: 0px;
+        h1{
+            font-size: 26px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    
+    .terms-content .content-wrap{
+        padding: 0px;
+    }
+    
+    .terms-content .content-wrap .question{
+        padding: 15px 0px;
+    }
+    
+    .terms-content .content-wrap .question ul{
+        padding-left: 25px;
+    }
+    
+    .terms-content .content-wrap .question h2, .terms-content .content-wrap .question h3{
+        padding-bottom: 0px;
+        font-size: 20px;
+    }
+    
+    .jk-logoW{
+        font-size: 200px;
+    }
+    
+    .hero-wrap .table-display .table-content .header .header-content p{
+        font-size: 14px;
+    }
+    
+    .hero-wrap .table-display .table-content .header.chinese .header-content .main-qr-code{
+        width: 80px;
+    }
+    
+    .carousel-images .thumbnails .carousel_dot{
+        width: 68px;
+    }
+    
+}
+
+@media screen and (max-width: 360px){
+    .hero-wrap .table-display .table-content .header.chinese .button-holder{
+        display: none;
+    }
+    
+    .hero-wrap .table-display .table-content .header.chinese .header-content span{
+        font-size: 14px;
+    }
+}
+
+

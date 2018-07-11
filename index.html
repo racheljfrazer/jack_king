@@ -9,16 +9,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <?php echo $meta_snippet; ?> 
 
-    <title><?php echo $title; ?></title>
+    <title>Jack & King's Website</title>
     <link rel="icon" 
       type="image/png" 
       href="assets/images/favicon1.png" size="32x32">
 
     <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/media.css" type="text/css">
     <link rel="stylesheet" href="assets/css/materialize.css" type="text/css">
-    <?php echo $jquerySource; ?>
-    <?php echo $styles; ?>
-    <?php echo $scripts; ?>
+    <link rel="stylesheet" href="assets/css/cart.css" type="text/css">
+
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/materialize.min.js"></script>
+    <script src="assets/js/shopify-buy.umd.polyfilled.js"></script>
 
 <!-- Facebook Pixel Code -->
 
@@ -123,7 +129,7 @@ src="https://www.facebook.com/tr?id=1999155047039551&ev=PageView
 </svg>
     
 
-<section id="jkCrawfish" class="product-quickview 19961020427 overlay-pop-bg" style="display:none;">
+<section id="jkCrawfish" class="product-quickview overlay-pop-bg" style="display:none;">
     <div class="quickview-container float-contain">
         <div class="container-left">
             <div class="view-wrap">
@@ -271,7 +277,7 @@ src="https://www.facebook.com/tr?id=1999155047039551&ev=PageView
     </div>
 </section>
     
-<section id="jkLakecrab" class="product-quickview 19971866635 overlay-pop-bg" style="display:none;">
+<section id="jkLakecrab" class="product-quickview overlay-pop-bg" style="display:none;">
     <div class="quickview-container float-contain">
         <div class="container-left">
             <div class="view-wrap">
@@ -282,7 +288,7 @@ src="https://www.facebook.com/tr?id=1999155047039551&ev=PageView
                 <div class="product-display">
                     <ul class="inline-images float-contain">
                         <li class="single-image image1 active"><img src="assets/images/products/jk_lakecrabpkg.jpg" alt="Jack &amp; King's Seasoned Lake Crab"></li>
-                        <li class="single-image image2"><img src="<?php echo $cdn;?>/assets/images/products/nl_lakecrab_spicyhot.jpg" alt="Nutrition Label for The Spicy Hot Flavor"></li>
+                        <li class="single-image image2"><img src="assets/images/products/nl_lakecrab_spicyhot.jpg" alt="Nutrition Label for The Spicy Hot Flavor"></li>
                     </ul>
                 </div>
                 <div class="carousel-images">
@@ -460,3 +466,297 @@ src="https://www.facebook.com/tr?id=1999155047039551&ev=PageView
       </div>
     </div>
   </script>
+
+  <section class="lead-full-image">
+    <div class="index-bg home-hero">
+        <div class="hero-wrap">
+            <div class="table-display">
+                <div class="table-content">
+                    <div class="header">
+                        <div class="logo-holder">
+                            <svg class="icon jk-logoW"><use xlink:href="#icon-jk-logoW"></use></svg>
+                        </div>
+                        <div class="header-content">
+                            <span>The ultimate experience of Chinese instant crawfish, crabs and seafood!</span>
+                        </div>
+                        <div class="button-holder section">
+                            <a href="#products" class="yellow-btn">Check Out Our Products</a>
+                        </div>
+                        <div class="action-scroll">
+                            <div class="mouse-icon">
+                                <span class="scroller"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="products" class="productList section scrollspy">
+    <div class="standard-wrap">
+        <div class="set-container">
+            <div class="flex-row">
+                <div class="lead-content home-section">
+                    <div class="lead-cont-wrap">
+                        <div class="title"><h1>Deliciously Seasoned Products</h1></div>
+                        <div class="body"><p>The best Chinese crawfish and crabs in the market ready in 10 minutes. Epic Chinese chief taste you can enjoy at home, a bite of China!</p></div>
+                    </div>
+                </div>
+                <div class="product-holder">
+                    <div class="float-contain">
+                        <a class="prod-card">
+                            <div class="card-wrap">
+                                <div id="imageOpenCF" class="prod-img">
+                                    <img src="assets/images/jk-crawfishpackage.png" alt="Jack & King's Seasoned Crawfish">
+                                </div>
+                                <div class="listing-content">
+                                    <div class="contetn-hd">
+                                        <div class="title"><h2>The JK Crawfish</h2></div>
+                                        <div class="flavors"><h3>3 Flavor Options</h3></div>
+                                        <div class="pricing">$11.99</div>
+                                    </div>
+                                    <div id="openCrawfish" class="product-action yellow-btn">Buy Now</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="prod-card">
+                            <div class="card-wrap">
+                                <div id="imageOpenLC" class="prod-img">
+                                    <img src="assets/images/jk-lakecrabpackage.png" alt="Jack & King's Seasoned Lake Crab">
+                                </div>
+                                <div class="listing-content">
+                                    <div class="contetn-hd">
+                                        <div class="title"><h2>The JK LakeCrab</h2></div>
+                                        <div class="flavors"><h3>Spicy Hot Flavor</h3></div>
+                                        <div class="pricing">$29.99</div>
+                                    </div>
+                                    <div id="openLakeCrab" class="product-action yellow-btn">Buy Now</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="values-container">
+    <div class="fullimg-bg values-bg">
+        <div class="standard-wrap">
+            <div class="set-container">
+                <div class="section-title">
+                    <h2 class="subtitle">Our Ingredient Standards</h2>
+                </div>
+                <ul class="value-lineup float-contain">
+                    <li class="value-component">
+                        <div class="comp-warp">
+                            <div class="comp-graphic"><svg class="icon fresh-boat standard-icon"><use xlink:href="#icon-fresh-boat"></use></svg></div>
+                            <div class="comp-content">
+                                <h3>Quality Sourced</h3>
+                                <p>All seafood is sourced from the best farms or wild place where the spices grow, using the most advanced harvest tech to keep it fresh.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="value-component">
+                        <div class="comp-warp">
+                            <div class="comp-graphic"><svg class="icon quality-source standard-icon"><use xlink:href="#icon-quality-source"></use></svg></div>
+                            <div class="comp-content">
+                                <h3>Premium Ingredients</h3>
+                                <p>All flavor and ingredients are sourced from the farms or wild places where the spices grow, using the most advanced harvest tech to keep it fresh and perfect to use in Jack &amp; King's seafood products.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="value-component">
+                        <div class="comp-warp">
+                            <div class="comp-graphic"><svg class="icon quick-easy standard-icon"><use xlink:href="#icon-quick-easy"></use></svg></div>
+                            <div class="comp-content">
+                                <h3>Easy &amp; Simple</h3>
+                                <p>The best flavored frozen seafood products in the market, can be prepared and ready in less than 10 minutes by microwave.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="company-story">
+    <div class="fullimg-bg story-bg">
+        <div class="standard-wrap">
+            <div class="set-container">
+                <div class="story-mobile-title">
+                    <div class="title-wrap">
+                        <div class="content">Our Story</div> 
+                    </div>
+                </div>
+                <div class="overlay-bg">
+                    <div class="object-hover">
+                        <div class="obj-cont">
+                            <img src="assets/images/spices.png" alt="Spices used by Jack &amp; King.">
+                        </div>
+                    </div>
+                    <div class="story-position">
+                        <div class="content-holder">
+                            <div class="title">Our Story</div>
+                            <div class="subline"><h4>Jack &amp; King's brand seafood products, starting from flavored frozen crawfish, flavored frozen lake crab. and there will be the same type of shrimp, lobster, fish and other seafood products come out.</h4></div>
+                            <div class="inline-content float-contain">
+                                <div class="float-col">
+                                    <div class="col-wrap">
+                                        <p><b>Jack</b>, 25 years experience in sourcing the best crawfish, crab, shrimp and other seafood all over the world, travel to all the best locations where the best seafood grows and harvest, a lifetime lover of best seafood and always stand for the best quality control in this industry.</p>
+                                    </div>
+                                </div>
+                                <div class="float-col">
+                                    <div class="col-wrap">
+                                        <p><b>King</b>, 18 years experience in sourcing the best natural flavors and ingredients all over the world, travel to all the best locations where the best flavor/ingredients grow and harvest, a lifetime lover of best ingredients to cook and always stand for the best quality control in this industry.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="story-mobile">
+    <div class="standard-wrap">
+        <div class="story-container">
+            <div class="story-mb-wrap">
+                <div class="content">
+                    <div class="subline">Jack &amp; King's brand seafood products, starting from flavored frozen crawfish, flavored frozen lake crab. and there will be the same type of shrimp, lobster, fish and other seafood products come out.</div>
+                    <div class="bio">
+                        <p><b>Jack</b>, 25 years experience in sourcing the best crawfish, crab, shrimp and other seafood zall over the world, travel to all the best locations where the best seafood grows and harvest, a lifetime lover of best seafood and always stand for the best quality control in this industry.</p>
+                        <p><b>King</b>, 18 years experience in sourcing the best natural flavors and ingredients all ovetr the world, travel to all the best locations where the best flavor/ingredients grow and harvest, a lifetime lover of best ingredients to cook and always stand for the best quality control in this industry.</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>       
+</section>
+
+<section class="newsletter-section">
+    <div class="fullimg-bg newsletter-bg">
+        <div class="hover-obj"><img src="assets/images/anchor-bluebg.jpg"></div>
+        <div class="standard-wrap">
+            <div class="set-container">
+                <div class="nl-title">
+                    <div class="nl-context">
+                        <h5>Stay In The Know</h5>
+                        <p>Join us to get the latest news of our upcoming products, promotions and free tasting parties near your locations!</p>
+                    </div>
+                </div>
+                <div class="newsletter-form">
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s12 m6">
+                                    <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">First Name</label>
+                                </div>
+                                <div class="input-field col s12 m6">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">Email Address</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 form-btn">
+                                    <a class="yellow-btn">Join The Newsletter</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="product-guarantees">
+    <div class="standard-wrap">
+        <div class="set-container">
+            <div class="flex-row">
+                <div class="promise-box">
+                    <div class="icon-box"><svg class="icon package promises"><use xlink:href="#icon-package"></use></svg></div>
+                    <div class="content">
+                        <h5><b>100%</b> customer satisfaction</h5>
+                    </div>
+                </div>
+                <div class="promise-box">
+                    <div class="icon-box"><svg class="icon lock promises"><use xlink:href="#icon-lock"></use></svg></div>
+                    <div class="content">
+                        <h5><b>Secure Payment</b> With Shopify Secure</h5>
+                    </div>
+                </div>
+                <div class="promise-box">
+                    <div class="icon-box"><svg class="icon airplane promises"><use xlink:href="#icon-airplane"></use></svg></div>
+                    <div class="content">
+                        <h5><b>Farms to Market</b> for fresh &amp; best taste</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="main-footer">
+    <div class="footer-wrap">
+        <div class="footer-container">
+            <ul class="footer-nav">
+                <li class="footer-logo">
+                    <div class="logo-holder">
+                        <svg class="icon jk-logoDark"><use xlink:href="#icon-jk-logoDark"></use></svg>
+                    </div>
+                </li>
+                <li class="address"><a href="https://goo.gl/maps/knxUeUnJgW62">7011 Koll Center Pkwy, Pleasanton, CA</a></li>
+                <li class="address-mb"><a href="https://goo.gl/maps/knxUeUnJgW62">7011 Koll Center Pkwy, Pleasanton, CA</a></li>
+                <li class="item contact"><a href="/contact-us/">Contact Us</a></li>
+                <li class="item"><a href="/terms-of-service/">Terms Of Service</a></li>
+                <li class="item"><a href="/privacy-policy/">Privacy Policy</a></li>
+            </ul>
+            <div class="footer-bottom">
+                <div class="bottom-wrap">
+                    <p>&copy; Copyright 2017 Jack &amp; King. All Rights Reserved  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 825824003;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/825824003/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112006146-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-112006146-1');
+</script>
+
+</body>
+</html>
