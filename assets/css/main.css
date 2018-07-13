@@ -928,7 +928,7 @@ Product Quick View
         width: 80%; }
       .product-options .row form .input-field .select-wrapper + label {
         left: 0;
-        top: -25px;
+        top: -30px;
         text-transform: uppercase;
         letter-spacing: 0.6px; }
       .product-options .row form .input-field .select-wrapper input.select-dropdown {
@@ -976,9 +976,11 @@ Product Quick View
     float: left;
     display: block; }
   .quantity label {
-    top: 0px !important;
+    top: -20px !important;
     left: 0px !important;
     text-transform: uppercase; }
+    .quantity label.active {
+      transform: none !important; }
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
