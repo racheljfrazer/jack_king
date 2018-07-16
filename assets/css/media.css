@@ -119,7 +119,10 @@ Created: 10/2017 by Rachel Frazer
     padding: 5px 0px; }
 
   .product-holder .prod-card .card-wrap .listing-content .title h2 {
-    font-size: 18px; } }
+    font-size: 18px; }
+
+  .info-slider {
+    min-height: 462px; } }
 @media screen and (max-width: 900px) {
   .value-lineup .value-component {
     display: block;
