@@ -14,10 +14,10 @@
       type="image/png" 
       href="assets/images/favicon1.png" size="32x32">
 
-    <link rel="stylesheet" href="assets/css/cart.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/materialize.css" type="text/css">
     <link rel="stylesheet" href="assets/css/main.css" type="text/css">
     <link rel="stylesheet" href="assets/css/media.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/materialize.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/cart.css" type="text/css">
 
     <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
 
@@ -129,573 +129,147 @@ src="https://www.facebook.com/tr?id=1999155047039551&ev=PageView
 </svg>
     
 
-<section id="jkCrawfish" class="product-quickview overlay-pop-bg" style="display:none;">
-    <div class="quickview-container float-contain">
-        <div class="container-left">
-            <div class="view-wrap">
-                <div class="image-controls">
-                    <a class="controls prev-control"><svg class="icon prev-arrow"><use xlink:href="#icon-scroll-arrow"></use></svg></a>
-                    <a class="controls next-control"><svg class="icon next-arrow"><use xlink:href="#icon-scroll-arrow"></use></svg></a>
-                </div>
-                <div class="product-display">
-                    <ul class="inline-images float-contain" id="select_1">
-                        <li class="single-image image1 active"><img src="assets/images/products/jk_crawfish_hotspicy.jpg" alt="Jack &amp; King's Seasoned Crawfish"></li>
-                        <li class="single-image image2"><img src="assets/images/products/nl_crawfish_spicyhot.jpg" alt="Nutrition Label for The Spicy Hot Flavor"></li>
-                    </ul>
-					
-					<ul class="inline-images float-contain" id="select_2" style="display:none">
-                        <li class="single-image image1 active"><img src="assets/images/products/jk_crawfish_secretseasoned.jpg" alt="Jack &amp; King's Seasoned Crawfish"></li>
-                        <li class="single-image image2"><img src="assets/images/products/nl_crawfish_secretmild.jpg" alt="Nutrition Label for The Secret Seasoned Flavor"></li>
-                    </ul>
-					
-					<ul class="inline-images float-contain" id="select_3" style="display:none">
-                        <li class="single-image image1 active"><img src="assets/images/products/jk_crawfish_oilboiled.jpg" alt="Jack &amp; King's Seasoned Crawfish"></li>
-                        <li class="single-image image2"><img src="assets/images/products/nl_crawfish_oilboiled.jpg" alt="Nutrition Label for The Oil Boiled Flavor"></li>
-                    </ul>
-					
-                </div>
-                <div class="carousel-images">
-                    <div class="thumbnails" id="select_thumb_1">
-                        <button class="carousel_dot dot1 active"><img src="assets/images/products/jk_crawfish_hotspicyThumb.jpg" alt="Jack &amp; King's Seasoned Crawfish"></button>
-                        <button class="carousel_dot dot2"><img src="assets/images/products/nl_crawfish_spicyhotThumb.jpg" alt="Nutrition Label for The Spicy Hot Flavor"></button>
-                    </div>
-					
-					<div class="thumbnails" id="select_thumb_2" style="display:none;">
-                        <button class="carousel_dot dot1 active"><img src="assets/images/products/jk_crawfish_secretseasonedThumb.jpg" alt="Jack &amp; King's Seasoned Crawfish"></button>
-                        <button class="carousel_dot dot2"><img src="assets/images/products/nl_crawfish_secretmildThumb.jpg" alt="Nutrition Label for The Secret Seasoned Flavor"></button>
-                    </div>
-					
-					<div class="thumbnails" id="select_thumb_3" style="display:none;">
-                        <button class="carousel_dot dot1 active"><img src="assets/images/products/jk_crawfish_oilboiledThumb.jpg" alt="Jack &amp; King's Seasoned Crawfish"></button>
-                        <button class="carousel_dot dot2"><img src="assets/images/products/nl_crawfish_oilboiledThumb.jpg"alt="Nutrition Label for The Oil Boiled Flavor"></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-right">
-            <div class="close-out">
-                <div class="close-circle">
-                    <span class="close-icon"></span>
-                </div>
-            </div>
-            <div class="info-slider">
-                <div id="test1" class="product-details">
-                    <div class="pd-full-information">
-                        <div class="top-pd-content">
-                            <div class="title"><h2>The JK Crawfish</h2></div>
-                            <div class="pricing">$11.99</div>
-                            <div class="description"><p>The JK Crawfish is prepared with Chinese street style hot and secret seasoning flavor. Our product is the best tasting and most convenient crawfish in the market and ready to eat after a couple minutes.</p></div>
-                        </div>
-                        <div class="product-options">
-                            <div class="row">
-                                <form class="col s12">
-                                    <div class="row">
-                                        <div class="input-field col s12 flavor">
-                                            <select id="select_change">
-                                                <option value="1" selected>Crawfish Spicy Hot Flavor</option>
-                                                <option value="2">Crawfish Secret Seasoned Flavor</option>
-                                                <option value="3">Crawfish Oil Boiled Flavor</option>
-                                            </select>
-											
-											
-                                            <label>Flavor</label>
-                                          </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="input-field col s4 quantity">
-                                            <input class="quantity-number" type="number" value="1">
-                                            <label>Quantity</label>
-                                        </div>
-                                        <div class="input-field col s8">
-                                            <a class="yellow-btn buy-button js-prevent-cart-listener">Add To Cart</a>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="test2" class="product-ingred">
-                    <div class="pd-full-information">
-                        <div class="top-pd-content">
-                            <div class="title"><h3>Ingredients<br> &amp; Nutrition Facts</h3></div>
-                            <div class="description slight-space">
-                                <p><b>Crawfish Spicy Hot &amp; Oil Boiled Flavor:</b> Crawfish, Water, Salt, Cane Sugar, Soybean Oil, Ginger, Garlic, Spicy Sauce, Chilli, Peppercorn, Spice, Natural Flavors</p>
-                                <p><b>Crawfish The Secret Mild Spicy Flavor:</b> Crawfish, Water, Salt, Cane Sugar, Soybean Oil, Ginger, Garlic, Sesame Oil, Bean Paste, Chilli, Peppercorn, Spice, Natural Flavors</p>
-                                <p><b>Allergy Information:</b> Soybean, Shellfish, Sesame</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="test3" class="product-shipping">
-                    <div class="pd-full-information">
-                        <div class="top-pd-content">
-                            <div class="title"><h3>Shipping Information</h3></div>
-                            <div class="component">
-                                <div class="title">
-                                    <div class="icon-holder">
-                                        <svg class="icon package services"><use xlink:href="#icon-package"></use></svg>
-                                    </div>
-                                    <h4>100% customer satisfaction</h4>
-                                </div>
-                                <div class="content">
-                                    <p>Everyone enjoys this bite of China taste, join our foody group and try for yourself!</p>
-                                </div>
-                            </div>
-                            <div class="component">
-                                <div class="title">
-                                    <div class="icon-holder">
-                                        <svg class="icon lock services"><use xlink:href="#icon-lock"></use></svg>
-                                    </div>
-                                    <h4>Secure Payment With Shopify Secure</h4>
-                                </div>
-                                <div class="content">
-                                    <p>Checkout completely secure using Visa, MasterCard, American Express, Pay Pal or Apple Pay.</p>
-                                </div>
-                            </div>
-                            <div class="component">
-                                <div class="title">
-                                    <div class="icon-holder">
-                                        <svg class="icon airplane services"><use xlink:href="#icon-airplane"></use></svg>
-                                    </div>
-                                    <h4>Farms to Market</h4>
-                                </div>
-                                <div class="content">
-                                    <p>Orders will be shipped within 3–5 days from order being placed.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ul class="tabs tab-options">
-                <li class="tab tab-item"><a class="active" href="#test1">Details</a></li>
-                <li class="tab tab-item"><a href="#test2">Ingredients</a></li>
-                <li class="tab tab-item"><a href="#test3">Shipping</a></li>
-            </ul>
-        </div>
-    </div>
-</section>
-    
-<section id="jkLakecrab" class="product-quickview overlay-pop-bg" style="display:none;">
-    <div class="quickview-container float-contain">
-        <div class="container-left">
-            <div class="view-wrap">
-                <div class="image-controls">
-                    <div class="controls prev-control"><svg class="icon prev-arrow"><use xlink:href="#icon-scroll-arrow"></use></svg></div>
-                    <div class="controls next-control"><svg class="icon next-arrow"><use xlink:href="#icon-scroll-arrow"></use></svg></div>
-                </div>
-                <div class="product-display">
-                    <ul class="inline-images float-contain">
-                        <li class="single-image image1 active"><img src="assets/images/products/jk_lakecrabpkg.jpg" alt="Jack &amp; King's Seasoned Lake Crab"></li>
-                        <li class="single-image image2"><img src="assets/images/products/nl_lakecrab_spicyhot.jpg" alt="Nutrition Label for The Spicy Hot Flavor"></li>
-                    </ul>
-                </div>
-                <div class="carousel-images">
-                    <div class="thumbnails">
-                        <button class="carousel_dot dot1 active"><img src="assets/images/products/jk_lakecrabpkgThumb.jpg" alt="Jack &amp; King's Seasoned Lake Crab"></button>
-                        <button class="carousel_dot dot2"><img src="assets/images/products/nl_lakecrab_spicyhotThumb.jpg" alt="Nutrition Label for The Spicy Hot Flavor"></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-right">
-            <div class="close-out">
-                <div class="close-circle">
-                    <span class="close-icon"></span>
-                </div>
-            </div>
-            <div class="info-slider">
-                <div id="test4" class="product-details">
-                    <div class="pd-full-information">
-                        <div class="top-pd-content">
-                            <div class="title"><h2>The JK Lake Crab</h2></div>
-                            <div class="pricing">$29.99</div>
-                            <div class="description"><p>The JK Lake Crab is prepared with Chinese street style hot and secret seasoning flavor. Our product is the best tasting and most convenient lake crab in the market and ready to eat after a couple minutes.</p></div>
-                        </div>
-                        <div class="product-options">
-                            <div class="row">
-                                <form class="col s12">
-                                    <div class="row">
-                                        <div class="input-field col s12 flavor">
-                                            <select id="select_change">
-                                                <option value="1" selected>Lake Crab Spicy Hot Flavor</option>     
-                                            </select>
-                                            <label>Flavor</label>
-                                          </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="input-field col s4 quantity">
-                                            <input class="quantity-number" type="number" value="1">
-                                            <label>Quantity</label>
-                                        </div>
-                                        <div class="input-field col s8">
-                                            <a class="yellow-btn buy-button js-prevent-cart-listener">Add To Cart</a>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="test5" class="product-ingred">
-                    <div class="pd-full-information">
-                        <div class="top-pd-content">
-                            <div class="title"><h3>Ingredients<br> &amp; Nutrition Facts</h3></div>
-                            <div class="description slight-space">
-                                <p><b>Lake Crab Hot and Spicy Flavor:</b> Lake Crab, Water, Salt, Cane Sugar, Soybean Oil, Ginger, Garlic, Bouillon Powder, Sesame Oil, Spicy Sauce, Chilli, Onion, Peppercorn, Spice, Natural Flavors</p>
-                                <p><b>Allergy Information:</b> Soybean, Shellfish, Sesame</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="test6" class="product-shipping">
-                    <div class="pd-full-information">
-                        <div class="top-pd-content">
-                            <div class="title"><h3>Shipping Information</h3></div>
-                            <div class="component">
-                                <div class="title">
-                                    <div class="icon-holder">
-                                        <svg class="icon package services"><use xlink:href="#icon-package"></use></svg>
-                                    </div>
-                                    <h4>100% customer satisfaction</h4>
-                                </div>
-                                <div class="content">
-                                    <p>Everyone enjoys this bite of China taste, join our foody group and try for yourself!</p>
-                                </div>
-                            </div>
-                            <div class="component">
-                                <div class="title">
-                                    <div class="icon-holder">
-                                        <svg class="icon lock services"><use xlink:href="#icon-lock"></use></svg>
-                                    </div>
-                                    <h4>Secure Payment With Shopify Secure</h4>
-                                </div>
-                                <div class="content">
-                                    <p>Checkout completely secure using Visa, MasterCard, American Express, Pay Pal or Apple Pay.</p>
-                                </div>
-                            </div>
-                            <div class="component">
-                                <div class="title">
-                                    <div class="icon-holder">
-                                        <svg class="icon airplane services"><use xlink:href="#icon-airplane"></use></svg>
-                                    </div>
-                                    <h4>Farms to Market</h4>
-                                </div>
-                                <div class="content">
-                                    <p>Orders will be shipped within 3–5 days from order being placed.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ul class="tabs tab-options">
-                <li class="tab tab-item"><a class="active" href="#test4">Details</a></li>
-                <li class="tab tab-item"><a href="#test5">Ingredients</a></li>
-                <li class="tab tab-item"><a href="#test6">Shipping</a></li>
-            </ul>
-        </div>
-    </div>
-</section>
- <!-- .cart-tab start -->
-  <button class="btn2 btn--cart-tab js-prevent-cart-listener">
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon-cart icon-cart--side" viewBox="0 0 25 25" enable-background="new 0 0 25 25"><g fill="#fff"><path d="M24.6 3.6c-.3-.4-.8-.6-1.3-.6h-18.4l-.1-.5c-.3-1.5-1.7-1.5-2.5-1.5h-1.3c-.6 0-1 .4-1 1s.4 1 1 1h1.8l3 13.6c.2 1.2 1.3 2.4 2.5 2.4h12.7c.6 0 1-.4 1-1s-.4-1-1-1h-12.7c-.2 0-.5-.4-.6-.8l-.2-1.2h12.6c1.3 0 2.3-1.4 2.5-2.4l2.4-7.4v-.2c.1-.5-.1-1-.4-1.4zm-4 8.5v.2c-.1.3-.4.8-.5.8h-13l-1.8-8.1h17.6l-2.3 7.1z"></path><circle cx="9" cy="22" r="2"></circle><circle cx="19" cy="22" r="2"></circle></g></svg>
-      <span class="btn__counter"></span>
-  </button>
-  <!-- .cart-tab end -->
-
-
-  <!-- .cart begin -->
-  <div class="cart">
-
-    <!-- .cart-section begin // cart header -->
-    <div class="cart-section cart-section--top">
-      <h2 class="cart-title">Your cart</h2>
-      <button class="btn--close">
-        <span aria-role="hidden">×</span>
-        <span class="visuallyhidden">Close</span>
-      </button>
-    </div>
-    <!-- .cart-section end -->
-
-    <!-- .cart-form begin // cart body -->
-    <div class="cart-form">
-      <div class="cart-item-container cart-section">
-
-      </div>
-
-      <!-- .cart-bottom begin -->
-      <div class="cart-bottom">
-        <div class="cart-info clearfix cart-section">
-          <div class="type--caps cart-info__total cart-info__small">Total</div>
-          <div class="cart-info__pricing">
-            <span class="cart-info__small cart-info__total">USD</span>
-            <span class="pricing pricing--no-padding"></span>
-          </div>
-        </div>
-        <div class="cart-actions-container cart-section type--center">
-          <div class="cart-discount-notice cart-info__small">Shipping and discount codes are added at checkout.</div>
-          <input type="submit" class="btn btn--cart-checkout" id="checkout" name="checkout" value="Checkout">
-        </div>
-      </div>
-      <!-- .cart-bottom end -->
-
-    </div>
-    <!-- .cart-form end -->
-
-  </div>
-  <!-- .cart end -->
-
-  <script id="CartItemTemplate" type="text/template">
-    <div class="cart-item">
-      <div class="cart-item__img"></div>
-      <div class="cart-item__content">
-        <div class="cart-item__content-row">
-          <div class="cart-item__variant-title"></div>
-          <span class="cart-item__title"></span>
-        </div>
-        <div class="cart-item__content-row">
-          <div class="cart-item__quantity-container">
-            <button class="btn--seamless quantity-decrement" type="button"><span>-</span><span class="visuallyhidden">Decrement</span></button>
-            <input class="cart-item__quantity" type="number" min="0" aria-label="Quantity">
-            <button class="btn--seamless quantity-increment" type="button"><span>+</span><span class="visuallyhidden">Increment</span></button>
-          </div>
-          <span class="cart-item__price"></span>
-        </div>
-      </div>
-    </div>
-  </script>
-
-  <section class="lead-full-image">
-    <div class="index-bg home-hero">
-        <div class="hero-wrap">
-            <div class="table-display">
-                <div class="table-content">
-                    <div class="header">
-                        <div class="logo-holder">
-                            <svg class="icon jk-logoW"><use xlink:href="#icon-jk-logoW"></use></svg>
-                        </div>
-                        <div class="header-content">
-                            <span>The ultimate experience of Chinese instant crawfish, crabs and seafood!</span>
-                        </div>
-                        <div class="button-holder section">
-                            <a href="#products" class="yellow-btn">Check Out Our Products</a>
-                        </div>
-                        <div class="action-scroll">
-                            <div class="mouse-icon">
-                                <span class="scroller"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="products" class="productList section scrollspy">
+<header class="terms-header">
     <div class="standard-wrap">
-        <div class="set-container">
-            <div class="flex-row">
-                <div class="lead-content home-section">
-                    <div class="lead-cont-wrap">
-                        <div class="title"><h1>Deliciously Seasoned Products</h1></div>
-                        <div class="body"><p>The best Chinese crawfish and crabs in the market ready in 10 minutes. Epic Chinese chief taste you can enjoy at home, a bite of China!</p></div>
-                    </div>
-                </div>
-                <div class="product-holder">
-                    <div class="float-contain">
-                        <a class="prod-card">
-                            <div class="card-wrap">
-                                <div id="imageOpenCF" class="prod-img">
-                                    <img src="assets/images/jk-crawfishpackage.png" alt="Jack & King's Seasoned Crawfish">
-                                </div>
-                                <div class="listing-content">
-                                    <div class="contetn-hd">
-                                        <div class="title"><h2>The JK Crawfish</h2></div>
-                                        <div class="flavors"><h3>3 Flavor Options</h3></div>
-                                        <div class="pricing">$11.99</div>
-                                    </div>
-                                    <div id="openCrawfish" class="product-action yellow-btn">Buy Now</div>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="prod-card">
-                            <div class="card-wrap">
-                                <div id="imageOpenLC" class="prod-img">
-                                    <img src="assets/images/jk-lakecrabpackage.png" alt="Jack & King's Seasoned Lake Crab">
-                                </div>
-                                <div class="listing-content">
-                                    <div class="contetn-hd">
-                                        <div class="title"><h2>The JK LakeCrab</h2></div>
-                                        <div class="flavors"><h3>Spicy Hot Flavor</h3></div>
-                                        <div class="pricing">$29.99</div>
-                                    </div>
-                                    <div id="openLakeCrab" class="product-action yellow-btn">Buy Now</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+        <div class="sm-container">
+            <div class="company-header">
+                <div class="company-icon">
+                    <a href="index.html" class="home-btn">
+                        <svg class="icon jk-logoDark"><use xlink:href="#icon-jk-logoDark"></use></svg>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</header>
 
-<section class="values-container">
-    <div class="fullimg-bg values-bg">
-        <div class="standard-wrap">
-            <div class="set-container">
-                <div class="section-title">
-                    <h2 class="subtitle">Our Ingredient Standards</h2>
-                </div>
-                <ul class="value-lineup float-contain">
-                    <li class="value-component">
-                        <div class="comp-warp">
-                            <div class="comp-graphic"><svg class="icon fresh-boat standard-icon"><use xlink:href="#icon-fresh-boat"></use></svg></div>
-                            <div class="comp-content">
-                                <h3>Quality Sourced</h3>
-                                <p>All seafood is sourced from the best farms or wild place where the spices grow, using the most advanced harvest tech to keep it fresh.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="value-component">
-                        <div class="comp-warp">
-                            <div class="comp-graphic"><svg class="icon quality-source standard-icon"><use xlink:href="#icon-quality-source"></use></svg></div>
-                            <div class="comp-content">
-                                <h3>Premium Ingredients</h3>
-                                <p>All flavor and ingredients are sourced from the farms or wild places where the spices grow, using the most advanced harvest tech to keep it fresh and perfect to use in Jack &amp; King's seafood products.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="value-component">
-                        <div class="comp-warp">
-                            <div class="comp-graphic"><svg class="icon quick-easy standard-icon"><use xlink:href="#icon-quick-easy"></use></svg></div>
-                            <div class="comp-content">
-                                <h3>Easy &amp; Simple</h3>
-                                <p>The best flavored frozen seafood products in the market, can be prepared and ready in less than 10 minutes by microwave.</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="company-story">
-    <div class="fullimg-bg story-bg">
-        <div class="standard-wrap">
-            <div class="set-container">
-                <div class="story-mobile-title">
-                    <div class="title-wrap">
-                        <div class="content">Our Story</div> 
-                    </div>
-                </div>
-                <div class="overlay-bg">
-                    <div class="object-hover">
-                        <div class="obj-cont">
-                            <img src="assets/images/spices.png" alt="Spices used by Jack &amp; King.">
-                        </div>
-                    </div>
-                    <div class="story-position">
-                        <div class="content-holder">
-                            <div class="title">Our Story</div>
-                            <div class="subline"><h4>Jack &amp; King's brand seafood products, starting from flavored frozen crawfish, flavored frozen lake crab. and there will be the same type of shrimp, lobster, fish and other seafood products come out.</h4></div>
-                            <div class="inline-content float-contain">
-                                <div class="float-col">
-                                    <div class="col-wrap">
-                                        <p><b>Jack</b>, 25 years experience in sourcing the best crawfish, crab, shrimp and other seafood all over the world, travel to all the best locations where the best seafood grows and harvest, a lifetime lover of best seafood and always stand for the best quality control in this industry.</p>
-                                    </div>
-                                </div>
-                                <div class="float-col">
-                                    <div class="col-wrap">
-                                        <p><b>King</b>, 18 years experience in sourcing the best natural flavors and ingredients all over the world, travel to all the best locations where the best flavor/ingredients grow and harvest, a lifetime lover of best ingredients to cook and always stand for the best quality control in this industry.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<section class="terms">
+    <div class="terms-wrap">
+        <div class="sm-container">
+            <div class="terms-title">
+                <div class="title-wrap">
+                    <h1>Privacy Policy/Your Privacy Rights</h1>
+                    <p>JACK &amp; KING'S LLC (“JACK &amp; KING's” or “us” or “we” or “our”) owns and operates the jnkfoods.com site (“Site”).  JACK &amp; KING's is committed to protecting your privacy when you visit and interact with the Site.  As such, JACK &amp; KING'S privacy practices are explained in this Privacy Policy (“Policy”).</p>
+                    <p>This Policy contains details about how JACK &amp; KING'S collects and uses information from you when you use the Site.</p>
+                    <p>This Policy covers only the Site.  Other JACK &amp; KING'S sites and other online locations may have their own privacy policies, and you should consult those accordingly.</p>
+                    <p>This Policy was last updated on and is effective as of April 20th, 2017.</p>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-
-<section class="story-mobile">
-    <div class="standard-wrap">
-        <div class="story-container">
-            <div class="story-mb-wrap">
-                <div class="content">
-                    <div class="subline">Jack &amp; King's brand seafood products, starting from flavored frozen crawfish, flavored frozen lake crab. and there will be the same type of shrimp, lobster, fish and other seafood products come out.</div>
-                    <div class="bio">
-                        <p><b>Jack</b>, 25 years experience in sourcing the best crawfish, crab, shrimp and other seafood zall over the world, travel to all the best locations where the best seafood grows and harvest, a lifetime lover of best seafood and always stand for the best quality control in this industry.</p>
-                        <p><b>King</b>, 18 years experience in sourcing the best natural flavors and ingredients all ovetr the world, travel to all the best locations where the best flavor/ingredients grow and harvest, a lifetime lover of best ingredients to cook and always stand for the best quality control in this industry.</p>
+            <div class="terms-content">
+                <div class="content-wrap">
+                    <div class="question">
+                        <h2>Policy Changes</h2>
+                        <p>JACK &amp; KING'S may update this Policy from time to time.  Any changes to this Policy will be posted below for a period of thirty (30) days and will be effective when posted.  The changes will also be immediately incorporated into this Policy.</p>
+                        <p>Your continued use of the Site after any changes are made to this Policy constitutes your acceptance of the changes.  If any of the changes are unacceptable to you, you should cease using the Site.</p>
+                        <p>If any changes to this Policy affect how JACK &amp; KING'S treats or handles information already provided by you to JACK &amp; KING'S, JACK &amp; KING'S will notify you by email (if JACK &amp; KING'S has a valid email address to use) and give you thirty (30) days to opt-in to the changes as they pertain to your information.  If you do not opt-in, your information will continue to be used in a manner that is consistent with the version of this Policy under which it was collected, or the information will be deleted.</p>
                     </div>
-                </div>
-            </div> 
-        </div>
-    </div>       
-</section>
-
-<section class="newsletter-section">
-    <div class="fullimg-bg newsletter-bg">
-        <div class="hover-obj"><img src="assets/images/anchor-bluebg.jpg"></div>
-        <div class="standard-wrap">
-            <div class="set-container">
-                <div class="nl-title">
-                    <div class="nl-context">
-                        <h5>Stay In The Know</h5>
-                        <p>Join us to get the latest news of our upcoming products, promotions and free tasting parties near your locations!</p>
+                    <div class="question">
+                        <h3>Collection and Use of Information</h3>
+                        <p>You can generally visit the Site without revealing any personally identifiable information about yourself.  Personally identifiable information (“PII”) is generally defined as information that may be able to identify you such as, but not limited to, name, address, telephone number, email address, birthday, credit card number, photograph, age, etc.</p>
+                        <p>There are areas on the Site where you may be asked to provide JACK &amp; KING'S with PII.  PII such as name, mailing address, email address, phone number, credit card number, and birthday may be collected from you when you visit and/or interact with the Site, such as when you:</p>
+                        <ul>
+                            <li>order services through the Site;</li>
+                            <li>complete and submit any form through the Site;</li>
+                            <li>register for JACK &amp; KING'S meetings or events; </li>
+                            <li>contact JACK &amp; KING'S with questions or comments;</li>
+                            <li>set up a Site account (e.g., create a user name, password, and an answer to a security question);</li>
+                            <li>participate in surveys, questionnaires, or contests; and/or</li>
+                            <li>sign up for JACK &amp; KING'S newsletter.</li>
+                        </ul>
+                        <p>JACK &amp; KING'S may use your PII to:</p>
+                        <ul>
+                            <li>provide or deliver to you goods and services through the Site;</li>
+                            <li>maintain proper business information and records;</li>
+                            <li>administer Site accounts;</li>
+                            <li>schedule/administer meetings and events;</li>
+                            <li>respond to questions or comments;</li>
+                            <li>process and catalog forms submitted through the Site and responses to surveys or questionnaires;</li>
+                            <li>enter you in contests and other promotions;</li>
+                            <li>communicate with you;</li>
+                            <li>send you JACK &amp; KING'S newsletters and other updates;</li>
+                            <li>improve the content and general administration of the Site;</li>
+                            <li>resolve disputes;</li>
+                            <li>troubleshoot Site technical issues;</li>
+                            <li>enforce the Site Terms of Use;</li>
+                            <li>perform internal operations (e.g., fraud prevention);</li>
+                            <li>conduct data analysis and testing; and/or</li>
+                            <li>analyze Site usage and Site activity patterns and trends.</li>
+                        </ul>
+                        <p>The Site may use cookies.  Cookies are files that are transmitted to your computer when you visit the Site.  Cookies allow JACK &amp; KING'S to recognize your browser when you subsequently return to the Site.  Cookies may also collect your user preferences when you visit the Site.  JACK &amp; KING'S does not use cookies to collect obvious PII, although it is possible that some of the collected elements, when combined with other data, could possibly be used to identify a person.  JACK &amp; KING'S may use cookies to:</p>
+                        <ul>
+                            <li>store and track information about you;</li>
+                            <li>remind us of who you are when you access your Site account information and/or use Site services in order to deliver to you a more personalized service;</li>
+                            <li>measure your Site visiting patterns in the aggregate in order to build higher quality online services by performing statistical analyses of the collective characteristics and behavior of our visitors, such as how long and how often users view certain pages;</li>
+                            <li>determine your clickstream to the Site;</li>
+                            <li>better personalize the Site content;</li>
+                            <li>collect IP addresses and log-in information for system administration;</li>
+                            <li>automatically share some information with Google Analytics and/or other analytics programs to analyze a broad range of information (the analytics are exclusively for our internal use to better manage the Site experience for our visitors and evaluate advertising strategies and tactics); and</li>
+                            <li>to assist us in delivering the highest quality of Site services that is possible.</li>
+                        </ul>
+                        <p>All pages on the Site where you are prompted to login or that are customizable may require you to accept cookies.  Our cookies are only read by the server that placed them and are unable to execute any code or virus.  You may be able to delete the cookies by consulting your browser and/or computer instructions.  Please note that any deletion of cookies could affect how the Site appears and/or operates for you.</p>
+                        <p>JACK &amp; KING'S uses its LazySauce (www.lazysauce.com) tool to track its online marketing campaigns and efforts.  LazySauce provides information on, but it is not limited to, analytics and details on search engine keywords, search queries, and the tracking of clicks to the Site.  While LazySauce does not directly collect obvious PII through the use of this tool, it does collect analytical information that could be tied to a specific user such as general geographic location, browser type, mobile phone details. JACK &amp; KING'S only uses this information internally to track its online marketing campaigns and efforts.</p>
+                        <p>JACK &amp; KING'S uses Google Analytics to track Site usage trends, measure Site performance, improve Site features.  No PII is collected by Google through this process.  A link to Google'S privacy policy can be found at https://www.google.com/policies/privacy/.</p>
+                        <p>Additionally, JACK &amp; KING'S may collect and save browsing and data log information linked to your use of the Site.  We may link this information to PII we have collected about you.</p>
+                        <p>By providing to JACK &amp; KING'S the PII and other information referenced above, you agree that JACK &amp; KING'S may use the PII and other information in accordance with the terms of this Policy.</p>
                     </div>
-                </div>
-                <div class="newsletter-form">
-                    <div class="row">
-                        <form class="col s12">
-                            <div class="row">
-                                <div class="input-field col s12 m6">
-                                    <input id="first_name" type="text" class="validate">
-                                    <label for="first_name">First Name</label>
-                                </div>
-                                <div class="input-field col s12 m6">
-                                    <input id="email" type="email" class="validate">
-                                    <label for="email">Email Address</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col s12 form-btn">
-                                    <a class="yellow-btn">Join The Newsletter</a>
-                                </div>
-                            </div>
-                        </form>
+                    <div class="question">
+                        <h3>Sharing of PII and Other Information</h3>
+                        <p>Except as noted herein, JACK &amp; KING'S does not sell or share your PII with any person or entity outside of JACK &amp; KING'S.  If a third party vendor or service provider directly collects PII through the Site, that is addressed in the above “Collection and Use of Information” section.</p>
+                        <p>The Site may integrate with social media sites/services which let you share actions you take on the Site with other sites, apps, or media, and vice versa.  Please review the privacy policies of those social media services for more information about how they handle the information you provide to or share through them.</p>
+                        <p>In addition to any other information sharing or disclosure practices described in this Policy, JACK &amp; KING'S will share certain portions of PII and non-PII with its third party contractors, vendors, and service providers in order to make the Site and Site related services function properly.  This may include sharing information with:</p>
+                        <ul>
+                            <li>our order processing/fulfillment and credit/debit card processing entities in order to process any orders and credit/debit card payments made through the Site;</li>
+                            <li>marketing and mailing/postal vendors to assist us with our business and marketing communications; and</li>
+                            <li>our email vendor to send you emails on our behalf.</li>
+                        </ul>
+                        <p>JACK &amp; KING'S may share PII with our subsidiaries and affiliates, joint ventures, or other companies under a common control, in which case we will require these affiliates to honor this Policy.</p>
+                        <p>JACK &amp; KING'S will disclose your PII if it reasonably believes it is required to do so by law or in cooperation with a governmental or law enforcement investigation.    JACK &amp; KING'S may also share PII or other information in order to avoid imminent physical harm to any person or harm to any JACK &amp; KING'S rights or property (including, without limitation, in the event of a transfer of control of JACK &amp; KING'S or substantially all of its assets).</p>
+                        <p>JACK &amp; KING'S may share your PII with a third party if JACK &amp; KING'S’s ownership status changes, such as it being acquired.  If our company or our assets are acquired by another company, that company will possess the PII collected by us and it will assume the rights and obligations regarding your PII as described in this Policy.</p>
+                        <p>Other than what is referenced above, the PII collected from you is not shared with nor sold to any person or entity outside of JACK &amp; KING'S.</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="product-guarantees">
-    <div class="standard-wrap">
-        <div class="set-container">
-            <div class="flex-row">
-                <div class="promise-box">
-                    <div class="icon-box"><svg class="icon package promises"><use xlink:href="#icon-package"></use></svg></div>
-                    <div class="content">
-                        <h5><b>100%</b> customer satisfaction</h5>
+                    <div class="question">
+                        <h3>Review of Collected PII/Other Choices</h3>
+                        <p>If you would like to review, edit, or delete any of the PII JACK &amp; KING'S collected from you, or wish JACK &amp; KING'S to cease using your PII in the manners specified in this Policy, please contact JACK &amp; KING'S at info@jnkfoods.com. JACK &amp; KING'S will do its best to accommodate your request, but JACK &amp; KING'S cannot guarantee it can remove all PII from the specified uses.  Therefore, please be as specific as possible in your request.  If the request relates to information that JACK &amp; KING'S needs to make the Site function properly for you, you may not be able to properly use the Site moving forward.</p>
+                        <p>JACK &amp; KING'S reserves the right to maintain proper business records as required by law, or for other legitimate business purposes to the extent allowed by law, even if such records contain your PII.</p>
+                        <p>If you would like to opt out of receiving further promotional emails from JACK &amp; KING'S, please follow the opt-out instructions at the bottom of the email or send JACK &amp; KING'S a detailed email to info@JACK&amp;KINGS.com</p>
+                        <p>JACK &amp; KING'S does not knowingly collect any information from minors, nor is the Site  directed at or intended for minors.  If a minor uploads/posts information to the Site that is publically available, and the minor subsequently wants that same information deleted, the minor has a right to request that said information be removed from public viewing.  Any removal of content by JACK &amp; KING'S does not ensure or guarantee complete or comprehensive removal of the content in all places.  The content may have been shared or reposted by other parties, or federal or state law may require maintenance of the content.</p>
                     </div>
-                </div>
-                <div class="promise-box">
-                    <div class="icon-box"><svg class="icon lock promises"><use xlink:href="#icon-lock"></use></svg></div>
-                    <div class="content">
-                        <h5><b>Secure Payment</b> With Shopify Secure</h5>
+                    <div class="question">
+                        <h3>Data Security and Retention</h3>
+                        <p>Whenever JACK &amp; KING'S collects PII though the Site, we take steps to ensure that your PII is treated securely and in accordance with the relevant Terms of Use and this Policy.  Your PII is stored on our servers located in the United States.  We use, implement, and maintain industry standard technological, procedural and mechanical safeguards that are reasonably designed to help protect your PII from loss, theft, unauthorized access, or disclosure in both storage/rest and in transmission, such as encryption.  Unfortunately, data transmission over the Internet cannot be guaranteed to be 100% secure.  We cannot warrant or ensure the security of any information you transmit to us or from our online products or services, and you do so at your own risk.  Once we receive your transmission, we make our best effort to ensure its security on our systems.</p>
+                        <p>If you are concerned about sending information to JACK &amp; KING'S over the Internet, please send the information by mail or call us to make other arrangements.  JACK &amp; KING'S is not responsible for the security of information sent over the Internet.</p>
+                        <p>JACK &amp; KING'S retains collected information for a reasonable amount of time in order to fulfill the stated purpose for why the information was collected.  JACK &amp; KING'S will also retain collected information connected to business records for periods of time required by law.  If JACK &amp; KING'S determines that collected information is no longer needed, it will delete such information. Our collection times will be consistent with applicable law.</p>
                     </div>
-                </div>
-                <div class="promise-box">
-                    <div class="icon-box"><svg class="icon airplane promises"><use xlink:href="#icon-airplane"></use></svg></div>
-                    <div class="content">
-                        <h5><b>Farms to Market</b> for fresh &amp; best taste</h5>
+                    <div class="question">
+                        <h3>Children’s Privacy</h3>
+                        <p>The Site is intended for individuals 18 years of age and older located in the United States.</p>
+                        <p>The Site is not directed at, marketed to, nor intended for, children under 13 years of age.  JACK &amp; KING'S does not knowingly collect any information, including PII, from children under 13 years of age.  If JACK &amp; KING'S learns that any information was provided through the Site by a person younger than 13 years of age, JACK &amp; KING'S will delete the information immediately.</p>
+                        <p>JACK &amp; KING'S will not use a minor’s PII to market or advertise certain products or services deemed harmful to children.  JACK &amp; KING'S also will not disclose any minor’s PII if it has actual knowledge that the minor’s PII will be used for the purpose of marketing or advertising the harmful products or services.</p>
+                    </div>
+                    <div class="question">
+                        <h3>Non-U.S. Concerns</h3>
+                        <p>The Site is meant for individuals within the United States.  JACK &amp; KING'S only knowingly collects information from individuals within the United States.  If you provide information to JACK &amp; KING'S from outside of the United States, you do so at your own risk.  If you are outside of the United States, you are responsible for complying with any local laws regarding use of the Site, and related data collection.  You also agree and acknowledge that by providing any information, including PII, through the Site, that such information will be transmitted to, processed in, and stored in, the United States.</p>
+                    </div>
+                    <div class="question">
+                        <h3>External Links</h3>
+                        <p>The Site may contain links to external sites, including those embedded in third party advertisements or sponsor information, that are not controlled by JACK &amp; KING'S.  JACK &amp; KING'S is not responsible for the privacy practices and data collection policies for such third party sites.  You should consult the privacy policies of those sites for details.</p>
+                        <p>We do not provide your PII to those advertisers.  However, if you independently interact with those advertisers after using the Site, those advertisers may collect PII about you subject to the terms of their own privacy policies, which you should review.</p>
+                        <p>JACK &amp; KING'S may also allow interaction between the Site and other sites or mobile applications such as Facebook or other social media providers.  This may include the “Like” button or other plugins available through the Site that allow you to share information with persons outside of the Site.  Please consult the privacy policies of those third party providers before using them to make sure you are comfortable with the level of sharing.</p>
+                        <p>If you choose to share your PII with any third parties, you are responsible for all actions they take with your PII.</p>
+                    </div>
+                    <div class="question">
+                        <h3>Terms of Use</h3>
+                        <p>The Terms of Use for the Site is incorporated by reference into this Policy.  The Terms of Use can be found at: jnkfoods.com/terms-of-use</p>
+                    </div>
+                    <div class="question">
+                        <h3>Miscellaneous</h3>
+                        <p>This Policy and the relevant Terms of Use are the sole authorized statements of JACK &amp; KING’S practices with respect to the online collection of PII and the usage of such information.  Any summaries of this Policy generated by third party software or otherwise shall have no legal effect, are in no way binding upon JACK &amp; KING, shall not be relied upon as a substitute for this Policy, and neither supersede nor modify this Policy.</p>
+                        <p>If you have any questions regarding this Policy, please contact JACK &amp; KING at:</p>
+                        <p><b>EMAIL:</b>&nbsp; info@jnkfoods.com</p>
+                        <p><b>PHONE:</b>&nbsp; (925)-399-1766</p>
+                        <p><b>MAIL:</b>&nbsp; 7011 Koll Center Parkway #176, Pleasanton CA 94566</p>
+                        <p>It is the policy of JACK &amp; KING to strictly enforce this Policy.  If you believe there has been some violation of this Policy, please contact JACK &amp; KING.</p>
+                        <p>This Policy was last updated on OCT, 2017</p>
                     </div>
                 </div>
             </div>

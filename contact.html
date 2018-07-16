@@ -14,10 +14,10 @@
       type="image/png" 
       href="assets/images/favicon1.png" size="32x32">
 
-    <link rel="stylesheet" href="assets/css/cart.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/materialize.css" type="text/css">
     <link rel="stylesheet" href="assets/css/main.css" type="text/css">
     <link rel="stylesheet" href="assets/css/media.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/materialize.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/cart.css" type="text/css">
 
     <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
 
@@ -129,573 +129,73 @@ src="https://www.facebook.com/tr?id=1999155047039551&ev=PageView
 </svg>
     
 
-<section id="jkCrawfish" class="product-quickview overlay-pop-bg" style="display:none;">
-    <div class="quickview-container float-contain">
-        <div class="container-left">
-            <div class="view-wrap">
-                <div class="image-controls">
-                    <a class="controls prev-control"><svg class="icon prev-arrow"><use xlink:href="#icon-scroll-arrow"></use></svg></a>
-                    <a class="controls next-control"><svg class="icon next-arrow"><use xlink:href="#icon-scroll-arrow"></use></svg></a>
-                </div>
-                <div class="product-display">
-                    <ul class="inline-images float-contain" id="select_1">
-                        <li class="single-image image1 active"><img src="assets/images/products/jk_crawfish_hotspicy.jpg" alt="Jack &amp; King's Seasoned Crawfish"></li>
-                        <li class="single-image image2"><img src="assets/images/products/nl_crawfish_spicyhot.jpg" alt="Nutrition Label for The Spicy Hot Flavor"></li>
-                    </ul>
-					
-					<ul class="inline-images float-contain" id="select_2" style="display:none">
-                        <li class="single-image image1 active"><img src="assets/images/products/jk_crawfish_secretseasoned.jpg" alt="Jack &amp; King's Seasoned Crawfish"></li>
-                        <li class="single-image image2"><img src="assets/images/products/nl_crawfish_secretmild.jpg" alt="Nutrition Label for The Secret Seasoned Flavor"></li>
-                    </ul>
-					
-					<ul class="inline-images float-contain" id="select_3" style="display:none">
-                        <li class="single-image image1 active"><img src="assets/images/products/jk_crawfish_oilboiled.jpg" alt="Jack &amp; King's Seasoned Crawfish"></li>
-                        <li class="single-image image2"><img src="assets/images/products/nl_crawfish_oilboiled.jpg" alt="Nutrition Label for The Oil Boiled Flavor"></li>
-                    </ul>
-					
-                </div>
-                <div class="carousel-images">
-                    <div class="thumbnails" id="select_thumb_1">
-                        <button class="carousel_dot dot1 active"><img src="assets/images/products/jk_crawfish_hotspicyThumb.jpg" alt="Jack &amp; King's Seasoned Crawfish"></button>
-                        <button class="carousel_dot dot2"><img src="assets/images/products/nl_crawfish_spicyhotThumb.jpg" alt="Nutrition Label for The Spicy Hot Flavor"></button>
-                    </div>
-					
-					<div class="thumbnails" id="select_thumb_2" style="display:none;">
-                        <button class="carousel_dot dot1 active"><img src="assets/images/products/jk_crawfish_secretseasonedThumb.jpg" alt="Jack &amp; King's Seasoned Crawfish"></button>
-                        <button class="carousel_dot dot2"><img src="assets/images/products/nl_crawfish_secretmildThumb.jpg" alt="Nutrition Label for The Secret Seasoned Flavor"></button>
-                    </div>
-					
-					<div class="thumbnails" id="select_thumb_3" style="display:none;">
-                        <button class="carousel_dot dot1 active"><img src="assets/images/products/jk_crawfish_oilboiledThumb.jpg" alt="Jack &amp; King's Seasoned Crawfish"></button>
-                        <button class="carousel_dot dot2"><img src="assets/images/products/nl_crawfish_oilboiledThumb.jpg"alt="Nutrition Label for The Oil Boiled Flavor"></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-right">
-            <div class="close-out">
-                <div class="close-circle">
-                    <span class="close-icon"></span>
-                </div>
-            </div>
-            <div class="info-slider">
-                <div id="test1" class="product-details">
-                    <div class="pd-full-information">
-                        <div class="top-pd-content">
-                            <div class="title"><h2>The JK Crawfish</h2></div>
-                            <div class="pricing">$11.99</div>
-                            <div class="description"><p>The JK Crawfish is prepared with Chinese street style hot and secret seasoning flavor. Our product is the best tasting and most convenient crawfish in the market and ready to eat after a couple minutes.</p></div>
-                        </div>
-                        <div class="product-options">
-                            <div class="row">
-                                <form class="col s12">
-                                    <div class="row">
-                                        <div class="input-field col s12 flavor">
-                                            <select id="select_change">
-                                                <option value="1" selected>Crawfish Spicy Hot Flavor</option>
-                                                <option value="2">Crawfish Secret Seasoned Flavor</option>
-                                                <option value="3">Crawfish Oil Boiled Flavor</option>
-                                            </select>
-											
-											
-                                            <label>Flavor</label>
-                                          </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="input-field col s4 quantity">
-                                            <input class="quantity-number" type="number" value="1">
-                                            <label>Quantity</label>
-                                        </div>
-                                        <div class="input-field col s8">
-                                            <a class="yellow-btn buy-button js-prevent-cart-listener">Add To Cart</a>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="test2" class="product-ingred">
-                    <div class="pd-full-information">
-                        <div class="top-pd-content">
-                            <div class="title"><h3>Ingredients<br> &amp; Nutrition Facts</h3></div>
-                            <div class="description slight-space">
-                                <p><b>Crawfish Spicy Hot &amp; Oil Boiled Flavor:</b> Crawfish, Water, Salt, Cane Sugar, Soybean Oil, Ginger, Garlic, Spicy Sauce, Chilli, Peppercorn, Spice, Natural Flavors</p>
-                                <p><b>Crawfish The Secret Mild Spicy Flavor:</b> Crawfish, Water, Salt, Cane Sugar, Soybean Oil, Ginger, Garlic, Sesame Oil, Bean Paste, Chilli, Peppercorn, Spice, Natural Flavors</p>
-                                <p><b>Allergy Information:</b> Soybean, Shellfish, Sesame</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="test3" class="product-shipping">
-                    <div class="pd-full-information">
-                        <div class="top-pd-content">
-                            <div class="title"><h3>Shipping Information</h3></div>
-                            <div class="component">
-                                <div class="title">
-                                    <div class="icon-holder">
-                                        <svg class="icon package services"><use xlink:href="#icon-package"></use></svg>
-                                    </div>
-                                    <h4>100% customer satisfaction</h4>
-                                </div>
-                                <div class="content">
-                                    <p>Everyone enjoys this bite of China taste, join our foody group and try for yourself!</p>
-                                </div>
-                            </div>
-                            <div class="component">
-                                <div class="title">
-                                    <div class="icon-holder">
-                                        <svg class="icon lock services"><use xlink:href="#icon-lock"></use></svg>
-                                    </div>
-                                    <h4>Secure Payment With Shopify Secure</h4>
-                                </div>
-                                <div class="content">
-                                    <p>Checkout completely secure using Visa, MasterCard, American Express, Pay Pal or Apple Pay.</p>
-                                </div>
-                            </div>
-                            <div class="component">
-                                <div class="title">
-                                    <div class="icon-holder">
-                                        <svg class="icon airplane services"><use xlink:href="#icon-airplane"></use></svg>
-                                    </div>
-                                    <h4>Farms to Market</h4>
-                                </div>
-                                <div class="content">
-                                    <p>Orders will be shipped within 3–5 days from order being placed.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ul class="tabs tab-options">
-                <li class="tab tab-item"><a class="active" href="#test1">Details</a></li>
-                <li class="tab tab-item"><a href="#test2">Ingredients</a></li>
-                <li class="tab tab-item"><a href="#test3">Shipping</a></li>
-            </ul>
-        </div>
-    </div>
-</section>
-    
-<section id="jkLakecrab" class="product-quickview overlay-pop-bg" style="display:none;">
-    <div class="quickview-container float-contain">
-        <div class="container-left">
-            <div class="view-wrap">
-                <div class="image-controls">
-                    <div class="controls prev-control"><svg class="icon prev-arrow"><use xlink:href="#icon-scroll-arrow"></use></svg></div>
-                    <div class="controls next-control"><svg class="icon next-arrow"><use xlink:href="#icon-scroll-arrow"></use></svg></div>
-                </div>
-                <div class="product-display">
-                    <ul class="inline-images float-contain">
-                        <li class="single-image image1 active"><img src="assets/images/products/jk_lakecrabpkg.jpg" alt="Jack &amp; King's Seasoned Lake Crab"></li>
-                        <li class="single-image image2"><img src="assets/images/products/nl_lakecrab_spicyhot.jpg" alt="Nutrition Label for The Spicy Hot Flavor"></li>
-                    </ul>
-                </div>
-                <div class="carousel-images">
-                    <div class="thumbnails">
-                        <button class="carousel_dot dot1 active"><img src="assets/images/products/jk_lakecrabpkgThumb.jpg" alt="Jack &amp; King's Seasoned Lake Crab"></button>
-                        <button class="carousel_dot dot2"><img src="assets/images/products/nl_lakecrab_spicyhotThumb.jpg" alt="Nutrition Label for The Spicy Hot Flavor"></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-right">
-            <div class="close-out">
-                <div class="close-circle">
-                    <span class="close-icon"></span>
-                </div>
-            </div>
-            <div class="info-slider">
-                <div id="test4" class="product-details">
-                    <div class="pd-full-information">
-                        <div class="top-pd-content">
-                            <div class="title"><h2>The JK Lake Crab</h2></div>
-                            <div class="pricing">$29.99</div>
-                            <div class="description"><p>The JK Lake Crab is prepared with Chinese street style hot and secret seasoning flavor. Our product is the best tasting and most convenient lake crab in the market and ready to eat after a couple minutes.</p></div>
-                        </div>
-                        <div class="product-options">
-                            <div class="row">
-                                <form class="col s12">
-                                    <div class="row">
-                                        <div class="input-field col s12 flavor">
-                                            <select id="select_change">
-                                                <option value="1" selected>Lake Crab Spicy Hot Flavor</option>     
-                                            </select>
-                                            <label>Flavor</label>
-                                          </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="input-field col s4 quantity">
-                                            <input class="quantity-number" type="number" value="1">
-                                            <label>Quantity</label>
-                                        </div>
-                                        <div class="input-field col s8">
-                                            <a class="yellow-btn buy-button js-prevent-cart-listener">Add To Cart</a>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="test5" class="product-ingred">
-                    <div class="pd-full-information">
-                        <div class="top-pd-content">
-                            <div class="title"><h3>Ingredients<br> &amp; Nutrition Facts</h3></div>
-                            <div class="description slight-space">
-                                <p><b>Lake Crab Hot and Spicy Flavor:</b> Lake Crab, Water, Salt, Cane Sugar, Soybean Oil, Ginger, Garlic, Bouillon Powder, Sesame Oil, Spicy Sauce, Chilli, Onion, Peppercorn, Spice, Natural Flavors</p>
-                                <p><b>Allergy Information:</b> Soybean, Shellfish, Sesame</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="test6" class="product-shipping">
-                    <div class="pd-full-information">
-                        <div class="top-pd-content">
-                            <div class="title"><h3>Shipping Information</h3></div>
-                            <div class="component">
-                                <div class="title">
-                                    <div class="icon-holder">
-                                        <svg class="icon package services"><use xlink:href="#icon-package"></use></svg>
-                                    </div>
-                                    <h4>100% customer satisfaction</h4>
-                                </div>
-                                <div class="content">
-                                    <p>Everyone enjoys this bite of China taste, join our foody group and try for yourself!</p>
-                                </div>
-                            </div>
-                            <div class="component">
-                                <div class="title">
-                                    <div class="icon-holder">
-                                        <svg class="icon lock services"><use xlink:href="#icon-lock"></use></svg>
-                                    </div>
-                                    <h4>Secure Payment With Shopify Secure</h4>
-                                </div>
-                                <div class="content">
-                                    <p>Checkout completely secure using Visa, MasterCard, American Express, Pay Pal or Apple Pay.</p>
-                                </div>
-                            </div>
-                            <div class="component">
-                                <div class="title">
-                                    <div class="icon-holder">
-                                        <svg class="icon airplane services"><use xlink:href="#icon-airplane"></use></svg>
-                                    </div>
-                                    <h4>Farms to Market</h4>
-                                </div>
-                                <div class="content">
-                                    <p>Orders will be shipped within 3–5 days from order being placed.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ul class="tabs tab-options">
-                <li class="tab tab-item"><a class="active" href="#test4">Details</a></li>
-                <li class="tab tab-item"><a href="#test5">Ingredients</a></li>
-                <li class="tab tab-item"><a href="#test6">Shipping</a></li>
-            </ul>
-        </div>
-    </div>
-</section>
- <!-- .cart-tab start -->
-  <button class="btn2 btn--cart-tab js-prevent-cart-listener">
-    <svg xmlns="http://www.w3.org/2000/svg" class="icon-cart icon-cart--side" viewBox="0 0 25 25" enable-background="new 0 0 25 25"><g fill="#fff"><path d="M24.6 3.6c-.3-.4-.8-.6-1.3-.6h-18.4l-.1-.5c-.3-1.5-1.7-1.5-2.5-1.5h-1.3c-.6 0-1 .4-1 1s.4 1 1 1h1.8l3 13.6c.2 1.2 1.3 2.4 2.5 2.4h12.7c.6 0 1-.4 1-1s-.4-1-1-1h-12.7c-.2 0-.5-.4-.6-.8l-.2-1.2h12.6c1.3 0 2.3-1.4 2.5-2.4l2.4-7.4v-.2c.1-.5-.1-1-.4-1.4zm-4 8.5v.2c-.1.3-.4.8-.5.8h-13l-1.8-8.1h17.6l-2.3 7.1z"></path><circle cx="9" cy="22" r="2"></circle><circle cx="19" cy="22" r="2"></circle></g></svg>
-      <span class="btn__counter"></span>
-  </button>
-  <!-- .cart-tab end -->
-
-
-  <!-- .cart begin -->
-  <div class="cart">
-
-    <!-- .cart-section begin // cart header -->
-    <div class="cart-section cart-section--top">
-      <h2 class="cart-title">Your cart</h2>
-      <button class="btn--close">
-        <span aria-role="hidden">×</span>
-        <span class="visuallyhidden">Close</span>
-      </button>
-    </div>
-    <!-- .cart-section end -->
-
-    <!-- .cart-form begin // cart body -->
-    <div class="cart-form">
-      <div class="cart-item-container cart-section">
-
-      </div>
-
-      <!-- .cart-bottom begin -->
-      <div class="cart-bottom">
-        <div class="cart-info clearfix cart-section">
-          <div class="type--caps cart-info__total cart-info__small">Total</div>
-          <div class="cart-info__pricing">
-            <span class="cart-info__small cart-info__total">USD</span>
-            <span class="pricing pricing--no-padding"></span>
-          </div>
-        </div>
-        <div class="cart-actions-container cart-section type--center">
-          <div class="cart-discount-notice cart-info__small">Shipping and discount codes are added at checkout.</div>
-          <input type="submit" class="btn btn--cart-checkout" id="checkout" name="checkout" value="Checkout">
-        </div>
-      </div>
-      <!-- .cart-bottom end -->
-
-    </div>
-    <!-- .cart-form end -->
-
-  </div>
-  <!-- .cart end -->
-
-  <script id="CartItemTemplate" type="text/template">
-    <div class="cart-item">
-      <div class="cart-item__img"></div>
-      <div class="cart-item__content">
-        <div class="cart-item__content-row">
-          <div class="cart-item__variant-title"></div>
-          <span class="cart-item__title"></span>
-        </div>
-        <div class="cart-item__content-row">
-          <div class="cart-item__quantity-container">
-            <button class="btn--seamless quantity-decrement" type="button"><span>-</span><span class="visuallyhidden">Decrement</span></button>
-            <input class="cart-item__quantity" type="number" min="0" aria-label="Quantity">
-            <button class="btn--seamless quantity-increment" type="button"><span>+</span><span class="visuallyhidden">Increment</span></button>
-          </div>
-          <span class="cart-item__price"></span>
-        </div>
-      </div>
-    </div>
-  </script>
-
-  <section class="lead-full-image">
-    <div class="index-bg home-hero">
-        <div class="hero-wrap">
-            <div class="table-display">
-                <div class="table-content">
-                    <div class="header">
-                        <div class="logo-holder">
-                            <svg class="icon jk-logoW"><use xlink:href="#icon-jk-logoW"></use></svg>
-                        </div>
-                        <div class="header-content">
-                            <span>The ultimate experience of Chinese instant crawfish, crabs and seafood!</span>
-                        </div>
-                        <div class="button-holder section">
-                            <a href="#products" class="yellow-btn">Check Out Our Products</a>
-                        </div>
-                        <div class="action-scroll">
-                            <div class="mouse-icon">
-                                <span class="scroller"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="products" class="productList section scrollspy">
+<header class="terms-header">
     <div class="standard-wrap">
-        <div class="set-container">
-            <div class="flex-row">
-                <div class="lead-content home-section">
-                    <div class="lead-cont-wrap">
-                        <div class="title"><h1>Deliciously Seasoned Products</h1></div>
-                        <div class="body"><p>The best Chinese crawfish and crabs in the market ready in 10 minutes. Epic Chinese chief taste you can enjoy at home, a bite of China!</p></div>
-                    </div>
-                </div>
-                <div class="product-holder">
-                    <div class="float-contain">
-                        <a class="prod-card">
-                            <div class="card-wrap">
-                                <div id="imageOpenCF" class="prod-img">
-                                    <img src="assets/images/jk-crawfishpackage.png" alt="Jack & King's Seasoned Crawfish">
-                                </div>
-                                <div class="listing-content">
-                                    <div class="contetn-hd">
-                                        <div class="title"><h2>The JK Crawfish</h2></div>
-                                        <div class="flavors"><h3>3 Flavor Options</h3></div>
-                                        <div class="pricing">$11.99</div>
-                                    </div>
-                                    <div id="openCrawfish" class="product-action yellow-btn">Buy Now</div>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="prod-card">
-                            <div class="card-wrap">
-                                <div id="imageOpenLC" class="prod-img">
-                                    <img src="assets/images/jk-lakecrabpackage.png" alt="Jack & King's Seasoned Lake Crab">
-                                </div>
-                                <div class="listing-content">
-                                    <div class="contetn-hd">
-                                        <div class="title"><h2>The JK LakeCrab</h2></div>
-                                        <div class="flavors"><h3>Spicy Hot Flavor</h3></div>
-                                        <div class="pricing">$29.99</div>
-                                    </div>
-                                    <div id="openLakeCrab" class="product-action yellow-btn">Buy Now</div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+        <div class="sm-container">
+            <div class="company-header">
+                <div class="company-icon">
+                    <a href="index.html" class="home-btn">
+                        <svg class="icon jk-logoDark"><use xlink:href="#icon-jk-logoDark"></use></svg>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</header>
 
-<section class="values-container">
-    <div class="fullimg-bg values-bg">
-        <div class="standard-wrap">
-            <div class="set-container">
-                <div class="section-title">
-                    <h2 class="subtitle">Our Ingredient Standards</h2>
-                </div>
-                <ul class="value-lineup float-contain">
-                    <li class="value-component">
-                        <div class="comp-warp">
-                            <div class="comp-graphic"><svg class="icon fresh-boat standard-icon"><use xlink:href="#icon-fresh-boat"></use></svg></div>
-                            <div class="comp-content">
-                                <h3>Quality Sourced</h3>
-                                <p>All seafood is sourced from the best farms or wild place where the spices grow, using the most advanced harvest tech to keep it fresh.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="value-component">
-                        <div class="comp-warp">
-                            <div class="comp-graphic"><svg class="icon quality-source standard-icon"><use xlink:href="#icon-quality-source"></use></svg></div>
-                            <div class="comp-content">
-                                <h3>Premium Ingredients</h3>
-                                <p>All flavor and ingredients are sourced from the farms or wild places where the spices grow, using the most advanced harvest tech to keep it fresh and perfect to use in Jack &amp; King's seafood products.</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="value-component">
-                        <div class="comp-warp">
-                            <div class="comp-graphic"><svg class="icon quick-easy standard-icon"><use xlink:href="#icon-quick-easy"></use></svg></div>
-                            <div class="comp-content">
-                                <h3>Easy &amp; Simple</h3>
-                                <p>The best flavored frozen seafood products in the market, can be prepared and ready in less than 10 minutes by microwave.</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="company-story">
-    <div class="fullimg-bg story-bg">
-        <div class="standard-wrap">
-            <div class="set-container">
-                <div class="story-mobile-title">
-                    <div class="title-wrap">
-                        <div class="content">Our Story</div> 
-                    </div>
-                </div>
-                <div class="overlay-bg">
-                    <div class="object-hover">
-                        <div class="obj-cont">
-                            <img src="assets/images/spices.png" alt="Spices used by Jack &amp; King.">
-                        </div>
-                    </div>
-                    <div class="story-position">
-                        <div class="content-holder">
-                            <div class="title">Our Story</div>
-                            <div class="subline"><h4>Jack &amp; King's brand seafood products, starting from flavored frozen crawfish, flavored frozen lake crab. and there will be the same type of shrimp, lobster, fish and other seafood products come out.</h4></div>
-                            <div class="inline-content float-contain">
-                                <div class="float-col">
-                                    <div class="col-wrap">
-                                        <p><b>Jack</b>, 25 years experience in sourcing the best crawfish, crab, shrimp and other seafood all over the world, travel to all the best locations where the best seafood grows and harvest, a lifetime lover of best seafood and always stand for the best quality control in this industry.</p>
-                                    </div>
-                                </div>
-                                <div class="float-col">
-                                    <div class="col-wrap">
-                                        <p><b>King</b>, 18 years experience in sourcing the best natural flavors and ingredients all over the world, travel to all the best locations where the best flavor/ingredients grow and harvest, a lifetime lover of best ingredients to cook and always stand for the best quality control in this industry.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<section class="contact-info">
+    <div class="min-wrap">
+        <div class="sm-container">
+            <div class="contact-title">
+                <div class="title-wrap">
+                    <h1>Contact &amp; Store Locations</h1>
+                    <p>Please contact us at <a href="" class="contact-link">800-818-8872</a> or <a href="" class="contact-link">info@jnkfoods.com</a> for more details. For wechat, please add wechat ID: jackandking517, or scan the QR CODE</p>
+                    
+                    <div class="qr-code">
+                        <img src="assets/images/qr-code.jpeg" alt="Jack & King QR Code">
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-
-<section class="story-mobile">
-    <div class="standard-wrap">
-        <div class="story-container">
-            <div class="story-mb-wrap">
-                <div class="content">
-                    <div class="subline">Jack &amp; King's brand seafood products, starting from flavored frozen crawfish, flavored frozen lake crab. and there will be the same type of shrimp, lobster, fish and other seafood products come out.</div>
-                    <div class="bio">
-                        <p><b>Jack</b>, 25 years experience in sourcing the best crawfish, crab, shrimp and other seafood zall over the world, travel to all the best locations where the best seafood grows and harvest, a lifetime lover of best seafood and always stand for the best quality control in this industry.</p>
-                        <p><b>King</b>, 18 years experience in sourcing the best natural flavors and ingredients all ovetr the world, travel to all the best locations where the best flavor/ingredients grow and harvest, a lifetime lover of best ingredients to cook and always stand for the best quality control in this industry.</p>
-                    </div>
-                </div>
-            </div> 
-        </div>
-    </div>       
-</section>
-
-<section class="newsletter-section">
-    <div class="fullimg-bg newsletter-bg">
-        <div class="hover-obj"><img src="assets/images/anchor-bluebg.jpg"></div>
-        <div class="standard-wrap">
-            <div class="set-container">
-                <div class="nl-title">
-                    <div class="nl-context">
-                        <h5>Stay In The Know</h5>
-                        <p>Join us to get the latest news of our upcoming products, promotions and free tasting parties near your locations!</p>
-                    </div>
-                </div>
-                <div class="newsletter-form">
-                    <div class="row">
-                        <form class="col s12">
-                            <div class="row">
-                                <div class="input-field col s12 m6">
-                                    <input id="first_name" type="text" class="validate">
-                                    <label for="first_name">First Name</label>
-                                </div>
-                                <div class="input-field col s12 m6">
-                                    <input id="email" type="email" class="validate">
-                                    <label for="email">Email Address</label>
-                                </div>
+            <div class="contact-full">
+                <div class="full-wrap">
+                    <div class="flex-row-top">
+                        <div class="right-col">
+                            <div class="stores">
+                                <h2 class="city">New York:</h2>
+                                <ul class="listed-stores">
+                                    <li>Good Fortune Grocery Stores</li>
+                                    <li>Great Wall Supermarkets</li>
+                                </ul>
+                                <h2 class="city">Atlanta:</h2>
+                                <ul class="listed-stores">
+                                    <li>Good Fortune Grocery Stores</li>
+                                    <li>Great Wall Supermarkets</li>
+                                </ul>
+                                <h2 class="city">Southern California:</h2>
+                                <ul class="listed-stores">
+                                    <li>Good Fortune Grocery Stores</li>
+                                    <li>Great Wall Supermarkets</li>
+                                </ul>
+                                <h2 class="city">Northern California:</h2>
+                                <ul class="listed-stores">
+                                    <li><a href="https://www.sayweee.com/" class="contact-link">www.sayweee.com</a></li>
+                                </ul>
                             </div>
-                            <div class="row">
-                                <div class="col s12 form-btn">
-                                    <a class="yellow-btn">Join The Newsletter</a>
-                                </div>
+                        </div>
+                        <div class="left-col">
+                            <div class="brand">
+                                <h3 class="city">Brand Ambassador Locations</h3>
+                                <p>Our brand ambassadors now are available in following areas:</p>
+                                <ul class="listed-stores">
+                                    <li>New York Metro</li>
+                                    <li>Boston Metro</li>
+                                    <li>Atlanta Metro</li>
+                                    <li>L.A. Metro</li>
+                                    <li>San Diego Metro</li>
+                                    <li>San Francisco Bay Metro</li>
+                                </ul>
                             </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="product-guarantees">
-    <div class="standard-wrap">
-        <div class="set-container">
-            <div class="flex-row">
-                <div class="promise-box">
-                    <div class="icon-box"><svg class="icon package promises"><use xlink:href="#icon-package"></use></svg></div>
-                    <div class="content">
-                        <h5><b>100%</b> customer satisfaction</h5>
-                    </div>
-                </div>
-                <div class="promise-box">
-                    <div class="icon-box"><svg class="icon lock promises"><use xlink:href="#icon-lock"></use></svg></div>
-                    <div class="content">
-                        <h5><b>Secure Payment</b> With Shopify Secure</h5>
-                    </div>
-                </div>
-                <div class="promise-box">
-                    <div class="icon-box"><svg class="icon airplane promises"><use xlink:href="#icon-airplane"></use></svg></div>
-                    <div class="content">
-                        <h5><b>Farms to Market</b> for fresh &amp; best taste</h5>
+                        </div>
                     </div>
                 </div>
             </div>

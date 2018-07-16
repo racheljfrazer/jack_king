@@ -1068,7 +1068,7 @@ Product Quick View
                 }
                 .select-wrapper + label{
                     left: 0;
-                    top: -25px;
+                    top: -30px;
                     text-transform: uppercase;
                     letter-spacing: 0.6px;
                 }
@@ -1130,9 +1130,13 @@ Product Quick View
         display: block;
     }
     label{
-        top: 0px !important;
+        top: -20px !important;
         left: 0px !important;
         text-transform: uppercase;
+        &.active{
+            transform: none !important;
+
+        }
     }
 }
 
